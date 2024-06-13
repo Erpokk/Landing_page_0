@@ -1,0 +1,97 @@
+:root {
+    --iris: #4D5AE5;     /* CTAs, Focused, Active states, Links */
+    --ocean: #404BBF;    /* CTAs */
+    --navy-blue: #2E2F42;    /* Overlays, Shadows, Headings */
+    --green: #31D0AA;    /* Valid fields */
+    --slate: #434455;     /* Body text */
+    --light-slate: #8E8F99;     /* Helper and deemphasized texy */
+    --cornflower: #E7E9FC;     /* Accent, Hairlines, Subtle backgrounds */
+    --cloud: #F4F4FD;     /* Light mode backgroundsand Light mode Dialogs/alerts */
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);     /* Overlay */
+    --grey: rgba(46, 47, 66, 0.7);     /* Hero image background */
+    --white: #FFFFFF;     /* Header, team card background */
+    --dairy: #FCFCFC;    /* Modal background */
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    margin: 0;
+    color: var(--navy-blue);
+}
+
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    color: inherit;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+h1 {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 56px;
+    letter-spacing: 2%;
+    line-height: 60px;
+    margin: 0;
+    color: var(--white);
+}
+
+h2 {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 2%;
+    margin: 0;
+}
+
+h3 {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2%;
+    margin: 0;
+}
+
+.small-text {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 4%;
+}
+
+.body-medium {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+
+.button-text {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+}
