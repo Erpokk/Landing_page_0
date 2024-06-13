@@ -15,10 +15,9 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     margin: 0;
     color: var(--slate);
     background-color: var(--white);
@@ -75,7 +74,6 @@ h3 {
 
 .small-text {
     font-family: inherit;
-    font-weight: 400;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 4%;
@@ -85,8 +83,8 @@ h3 {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .button-text {
@@ -107,6 +105,15 @@ h3 {
     color: var(--iris)
 }
 
-.logo-studio {
+.logo-studio, .link {
     color:var(--navy-blue);
+}
+
+.link:hover, .link:focus, .address:hover, .address:focus {
+    color: var(--iris);
+}
+
+.address {
+    font-style: normal;
+    color:inherit
 }
