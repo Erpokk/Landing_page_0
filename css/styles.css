@@ -109,11 +109,14 @@ h3 {
     color:var(--navy-blue);
 }
 
-.link:hover, .link:focus, .address:hover, .address:focus {
+.link:hover, .link:focus, .address a:hover, .address a:focus {
     color: var(--iris);
 }
 
 .address {
     font-style: normal;
-    color:inherit
+}
+
+.address a {
+    color: var(--slate)
 }
