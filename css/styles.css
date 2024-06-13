@@ -149,3 +149,15 @@ a {
 .list-item {
     background-color: var(--white);
 }
+
+.foot {
+    background-color: var(--navy-blue);
+}
+
+.foot .logo-studio {
+    color: var(--cloud);
+}
+
+.foot .par {
+    color: var(--cloud);
+}
