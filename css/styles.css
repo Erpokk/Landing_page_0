@@ -110,7 +110,7 @@ h3 {
 }
 
 .link:hover, .link:focus, .address a:hover, .address a:focus {
-    color: var(--iris);
+    color: var(--ocean);
 }
 
 .address {
