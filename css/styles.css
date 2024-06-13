@@ -50,8 +50,8 @@ h1 {
     font-family: inherit;
     font-weight: bold;
     font-size: 56px;
-    letter-spacing: 2%;
-    line-height: 60px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
     margin: 0;
     color: var(--white);
 }
@@ -91,8 +91,8 @@ h3 {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 4%;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .logo {
@@ -109,7 +109,7 @@ h3 {
     color:var(--navy-blue);
 }
 
-.link:hover, .link:focus, .address a:hover, .address a:focus {
+.link:hover, .link:focus, .address-link:hover, .address-link:focus  {
     color: var(--ocean);
 }
 
@@ -117,6 +117,25 @@ h3 {
     font-style: normal;
 }
 
-.address a {
+.address-link {
     color: var(--slate)
+}
+
+.hero {
+    background-color: var(--navy-blue);
+}
+
+.title {
+    text-align: center;
+}
+
+.title-btn {
+    background-color: var(--iris);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.title-btn:hover,
+.title-btn:focus {
+    background-color: var(--ocean);
 }
