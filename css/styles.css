@@ -29,7 +29,7 @@ h6 {
     margin: 0;
 }
 
-p {
+.par {
     margin: 0;
     color: inherit;
 }
@@ -64,11 +64,13 @@ h2 {
     margin: 0;
 }
 
-h3 {
+.hd-thr {
     font-family: inherit;
     font-weight: 500;
     font-size: 20px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    color: var(--navy-blue);
     margin: 0;
 }
 
@@ -92,7 +94,7 @@ h3 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04em;
 }
 
 .logo {
