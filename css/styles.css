@@ -45,22 +45,26 @@ a {
     text-decoration: none;
 
 }
-
-h1 {
+.hd-ttl {
     font-family: inherit;
     font-weight: bold;
     font-size: 56px;
     letter-spacing: 0.02em;
     line-height: 1.07;
-    margin: 0;
+    text-align: center;
     color: var(--white);
+    margin: 0;
 }
 
-h2 {
+.hd-two {
     font-family: inherit;
     font-weight: bold;
     font-size: 36px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    line-height: 1,11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--navy-blue);
     margin: 0;
 }
 
@@ -127,10 +131,6 @@ h2 {
     background-color: var(--navy-blue);
 }
 
-.title {
-    text-align: center;
-}
-
 .title-btn {
     background-color: var(--iris);
     color: var(--white);
@@ -140,4 +140,12 @@ h2 {
 .title-btn:hover,
 .title-btn:focus {
     background-color: var(--ocean);
+}
+
+.sec-two {
+    background-color: var(--cloud);
+}
+
+.list-item {
+    background-color: var(--white);
 }
