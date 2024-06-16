@@ -22,10 +22,13 @@ body {
     color: var(--slate);
     background-color: var(--white);
 }
-
+h1,
+h2,
+h3,
 h4,
 h5,
-h6 {
+h6,
+p {
     margin: 0;
 }
 
@@ -159,4 +162,52 @@ a {
 
 .foot .par {
     color: var(--cloud);
+}
+
+
+
+img  {
+    display: block;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.nav-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 24px 156px;
+}
+
+.nav-block nav {
+    display: inherit;
+    flex-direction: row;
+
+
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-list > li {
+    padding: 0 40px;
+}
+
+.nav-block .address{
+    display: inherit;
+    flex-direction: row;
+
 }
