@@ -47,6 +47,11 @@ a {
     text-decoration: none;
 
 }
+
+img {
+    display: block;
+}
+
 .hd-ttl {
     font-family: inherit;
     font-weight: bold;
@@ -103,6 +108,10 @@ a {
     letter-spacing: 0.04em;
 }
 
+.header {
+    border-bottom: 1px solid var(--cornflower);
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
@@ -110,7 +119,8 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--iris)
+    color: var(--iris);
+    margin-right: 76px;
 }
 
 .logo-studio, .link {
@@ -129,6 +139,35 @@ a {
     color: var(--slate)
 }
 
+.nav-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 24px 156px;
+}
+
+.naviation {
+    display: inherit;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.body-medium.link {
+    padding: 24px 40px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+}
+.address {
+    display: flex;
+    gap: 40px;
+}
 .hero {
     background-color: var(--navy-blue);
 }
@@ -164,12 +203,6 @@ a {
     color: var(--cloud);
 }
 
-
-
-img  {
-    display: block;
-}
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -183,31 +216,10 @@ img  {
     overflow: hidden;
 }
 
-.nav-block {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 24px 156px;
-}
-
-.nav-block nav {
-    display: inherit;
-    flex-direction: row;
-
-
-}
-
-.nav-list {
-    display: flex;
-    flex-direction: row;
-}
-
-.nav-list > li {
-    padding: 0 40px;
-}
-
-.nav-block .address{
-    display: inherit;
-    flex-direction: row;
-
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 0;
+    margin-right: 0;
 }
