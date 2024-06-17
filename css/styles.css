@@ -219,6 +219,7 @@ img {
     background-color: var(--white);
     flex-basis: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
+   
 }
 .tm-card {
     padding: 32px 0;
@@ -228,6 +229,32 @@ img {
     text-align: center;
 }
 
+.sec-four {
+    padding: 120px 0;
+}
+
+.portf-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
+
+
+}
+
+.portf-item {
+    flex-basis: calc((100% - 24px) / 4);
+}
+
+.exm-card {
+    padding: 32px 16px;
+    border: 1px solid var(--cornflower);
+    border-top: none;
+}
+
+.exm-card > h3 {
+    margin-bottom: 8px;
+}
 .foot {
     background-color: var(--navy-blue);
 }
