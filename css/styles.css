@@ -257,14 +257,22 @@ img {
 }
 .foot {
     background-color: var(--navy-blue);
+    padding: 100px 0;
+}
+
+.foot  .logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .foot .logo-studio {
     color: var(--cloud);
+
 }
 
 .foot .par {
     color: var(--cloud);
+    max-width: 264px;
 }
 
 .visually-hidden {
