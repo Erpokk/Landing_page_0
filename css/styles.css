@@ -74,7 +74,7 @@ img {
     text-align: center;
     text-transform: capitalize;
     color: var(--navy-blue);
-    margin: 0;
+    margin: 0 0 72px;
 }
 
 .hd-thr {
@@ -85,13 +85,15 @@ img {
     line-height: 1.2;
     color: var(--navy-blue);
     margin: 0 0 8px;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .small-text {
     font-family: inherit;
     font-size: 12px;
     line-height: 14px;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
 }
 
 .body-medium {
@@ -192,23 +194,40 @@ img {
     background-color: var(--ocean);
 }
 
-.sec-two {
-    background-color: var(--cloud);
-}
-
-.list-item {
-    background-color: var(--white);
-}
 .benefits {
     padding: 120px 0;
 }
+
 .benef-list {
     display: flex;
     gap: 24px;
 }
+
 .benef-item {
-    width: clac((100%-72px)/4);
+    flex-basis: calc((100% - 72px) / 4);
 }
+
+.sec-two {
+    background-color: var(--cloud);
+    padding: 120px 0;
+}
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+.list-item {
+    background-color: var(--white);
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
+}
+.tm-card {
+    padding: 32px 0;
+}
+
+.tm-card > .par {
+    text-align: center;
+}
+
 .foot {
     background-color: var(--navy-blue);
 }
