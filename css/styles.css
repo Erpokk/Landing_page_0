@@ -61,7 +61,8 @@ img {
     line-height: 1.07;
     text-align: center;
     color: var(--white);
-    margin: 0;
+    max-width: 496px;
+    margin: auto auto;
 }
 
 .hd-two {
@@ -171,12 +172,19 @@ img {
 }
 .hero {
     background-color: var(--navy-blue);
+    padding: 188px 0;
 }
 
 .title-btn {
     background-color: var(--iris);
     color: var(--white);
+    display: block;
+    border: none;
+    border-radius: 4px;
+    max-width: 169px;
+    height: 56px;
     cursor: pointer;
+    margin: 48px auto auto;
 }
 
 .title-btn:hover,
