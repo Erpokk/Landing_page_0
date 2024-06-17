@@ -89,6 +89,10 @@ img {
     margin-bottom: 8px;
 }
 
+.portf-list .hd-thr, 
+.benef-list .hd-thr {
+    text-align: left;
+}
 .small-text {
     font-family: inherit;
     font-size: 12px;
@@ -194,10 +198,6 @@ img {
     background-color: var(--ocean);
 }
 
-.benefits {
-    padding: 120px 0;
-}
-
 .benef-list {
     display: flex;
     gap: 24px;
@@ -209,7 +209,6 @@ img {
 
 .sec-two {
     background-color: var(--cloud);
-    padding: 120px 0;
 }
 .team-list {
     display: flex;
@@ -227,10 +226,6 @@ img {
 
 .tm-card > .par {
     text-align: center;
-}
-
-.sec-four {
-    padding: 120px 0;
 }
 
 .portf-list {
@@ -292,4 +287,8 @@ img {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+}
+
+.section {
+    padding: 120px 0; 
 }
