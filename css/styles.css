@@ -146,7 +146,7 @@ img {
     margin: 24px 156px;
 }
 
-.naviation {
+.navigation {
     display: inherit;
     flex-direction: row;
     align-items: center;
@@ -155,7 +155,7 @@ img {
 }
 
 .body-medium.link {
-    padding: 24px 40px;
+    padding: 24px 0;
 }
 
 .nav-list {
@@ -220,6 +220,5 @@ img {
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 auto;
 }
