@@ -362,6 +362,10 @@ img {
   max-width: 264px;
 }
 
+.social-container > .par {
+  color: var(--white);
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
