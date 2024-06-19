@@ -287,7 +287,7 @@ img {
 .icon-item {
   width: 40px;
   height: 40px;
-  border: solid;
+  border: 0 solid;
 }
 
 .icon-link {
@@ -360,6 +360,11 @@ img {
 .foot .par {
   color: var(--cloud);
   max-width: 264px;
+}
+
+.foot .icon-link:hover,
+.foot .icon-link:focus {
+  background-color: var(--green);
 }
 
 .social-container > .par {
