@@ -177,12 +177,17 @@ img {
     gap: 40px;
 }
 .hero {
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/hero_bg.jpg);
     background-color: var(--navy-blue);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 188px 0;
 }
 
 .title-btn {
     background-color: var(--iris);
+    
     color: var(--white);
     display: block;
     border: none;
@@ -207,6 +212,15 @@ img {
     flex-basis: calc((100% - 72px) / 4);
 }
 
+.benef-icon {
+    padding: 24px 100px;
+    background-color: var(--cloud);
+    border: 1px solid var(--light-slate);
+    border-radius: 4px;
+    margin-bottom: 8px;
+
+}
+
 .sec-two {
     background-color: var(--cloud);
 }
@@ -226,6 +240,22 @@ img {
 
 .tm-card > .par {
     text-align: center;
+    margin-bottom: 8px;
+}
+
+.tm-icon {
+    
+    display: flex;
+    padding: 0 32px;
+    justify-content: center;
+    gap: 24px; 
+}
+
+.tm-icon > svg {
+    border: 12px;
+    border: solid;
+    border-radius: 50%;
+   
 }
 
 .portf-list {
