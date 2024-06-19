@@ -318,6 +318,12 @@ img {
 
 .portf-item {
   flex-basis: calc((100% - 24px) / 4);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portf-item:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .exm-card {
@@ -334,11 +340,19 @@ img {
   padding: 100px 0;
 }
 
+.foot-general {
+  display: flex;
+  align-items: baseline;
+}
+
+.foot-general .container {
+  margin-right: 120px;
+}
+
 .foot .logo {
   display: inline-block;
   margin-bottom: 16px;
 }
-
 .foot .logo-studio {
   color: var(--cloud);
 }
