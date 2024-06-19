@@ -364,6 +364,12 @@ img {
 
 .social-container > .par {
   color: var(--white);
+  margin-bottom: 16px;
+}
+
+.foot-list {
+  display: flex;
+  gap: 16px;
 }
 
 .visually-hidden {
