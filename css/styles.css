@@ -132,7 +132,7 @@ img {
     text-transform: uppercase;
     color: var(--iris);
     margin-right: 76px;
-    position: relative;
+    
 }
 
 .logo-studio, .link {
@@ -161,8 +161,10 @@ img {
     display: inherit;
     flex-direction: row;
     align-items: center;
+}
 
-
+.navigation .link {
+    position: relative;
 }
 
 .body-medium.link {
