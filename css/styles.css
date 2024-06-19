@@ -207,7 +207,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
         ),
-        url(./images/hero_bg.jpg);
+        url(../images/hero_bg.jpg);
     background-color: var(--navy-blue);
     background-repeat: no-repeat;
     background-position: center;
