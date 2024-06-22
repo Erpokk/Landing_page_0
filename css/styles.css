@@ -513,6 +513,7 @@ img {
 .lbl-modal {
   color: var(--light-slate);
   margin-bottom: 4px;
+  display: block;
 }
 
 .inp-icon {
