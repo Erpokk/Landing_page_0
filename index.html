@@ -536,29 +536,30 @@
             <label class="small-text lbl-modal" for="user-comment"
               >Comment
             </label>
-            <input
+            <textarea
               class="modal-textarea small-text"
               type="textarea"
               name="user-comment"
               id="user-comment"
               placeholder="Text input"
-            />
+            ></textarea>
           </div>
           <div class="checkbox-cont">
             <input
-              class="visually-hidden"
+              class="visually-hidden privacy-input"
               type="checkbox"
               id="user-privacy"
               value="true"
               name="user-privacy"
             />
-            <label class="small=text privacy-text" for="user-privacy"
+            <label class="small-text privacy-text" for="user-privacy"
               ><span class="privacy-span">
                 <svg class="checkbox-svg" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg> </span
-              >I accept the terms and conditions of the ></label
-            >
+              >I accept the terms and conditions of the
+              <a class="link-text" href="#">Privacy Policy</a>
+            </label>
           </div>
         </form>
       </div>

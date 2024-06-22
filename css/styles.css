@@ -115,6 +115,14 @@ img {
   letter-spacing: 0.04em;
 }
 
+.link-text {
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 1.34;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+}
+
 /* endregion General */
 .header {
   border-bottom: 1px solid var(--cornflower);
@@ -586,6 +594,13 @@ img {
   justify-content: center;
   fill: transparent;
 }
+
+.privacy-input:checked + .privacy-text > .privacy-span {
+  background-color: var(--ocean);
+  border: none;
+  fill: var(--cloud);
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
