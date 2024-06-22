@@ -387,7 +387,8 @@ img {
   background-color: var(--green);
 }
 
-.social-container > .par {
+.social-container > .par,
+.subscribe-con > .par {
   color: var(--white);
   margin-bottom: 16px;
 }
@@ -395,6 +396,50 @@ img {
 .foot-list {
   display: flex;
   gap: 16px;
+}
+
+.subscribe-con {
+  margin-left: 80px;
+}
+
+.subscribe-con .subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+
+.subs-inp {
+  width: 264px;
+  height: 40px;
+  border: 1px solid var(--white);
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--white);
+}
+
+.subs-inp::placeholder {
+  color: currentColor;
+}
+
+.subs-btn {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: var(--white);
+  background-color: var(--iris);
+  border: none;
+  border-radius: 4px;
+}
+
+.subs-btn-icon {
+  margin-left: 16px;
 }
 
 .visually-hidden {
