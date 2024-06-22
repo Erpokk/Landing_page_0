@@ -491,12 +491,40 @@
         </p>
         <form action="#">
           <div class="modal-person">
-            <label for=""
+            <label class="small-text lbl-modal" for="person-name"
               >Name
-              <svg class="overlay-icon icon-svg" width="18" height="18">
+              <svg class="overlay-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
-              <input type="text" id="" />
+              <input type="text" name="person-name" id="person-name" />
+            </label>
+          </div>
+          <div class="">
+            <label class="small-text lbl-modal" for="person-phone"
+              >Phone
+              <svg class="overlay-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+              <input type="text" name="person-phone" id="person-phone" />
+            </label>
+          </div>
+          <div class="">
+            <label class="small-text lbl-modal" for="person-mail"
+              >Email
+              <svg class="overlay-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+              <input type="text" name="person-mail" id="person-mail" />
+            </label>
+          </div>
+          <div class="modal-person">
+            <label class="small-text" for="person-comment"
+              >Comment
+              <input
+                type="textarea"
+                name="person-comment"
+                id="person-comment"
+              />
             </label>
           </div>
         </form>

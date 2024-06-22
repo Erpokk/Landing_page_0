@@ -509,6 +509,9 @@ img {
   margin-bottom: 8px;
 }
 
+.lbl-modal {
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
