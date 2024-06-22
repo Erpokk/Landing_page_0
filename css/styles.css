@@ -151,6 +151,7 @@ img {
 
 .address-link {
   color: var(--slate);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-block.container {
@@ -184,6 +185,7 @@ img {
 .body-medium.link {
   padding: 24px 0;
   display: block;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-list {
