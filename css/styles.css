@@ -95,7 +95,7 @@ img {
 .small-text {
   font-family: inherit;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 1.17;
   letter-spacing: 0.04em;
 }
 
@@ -503,6 +503,7 @@ img {
 .modal-par {
   color: var(--navy-blue);
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .modal-person {
@@ -510,6 +511,39 @@ img {
 }
 
 .lbl-modal {
+  color: var(--light-slate);
+  margin-bottom: 4px;
+}
+
+.inp-icon {
+  position: relative;
+}
+
+.modal-inp {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  padding-left: 38px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-inp:focus {
+  border-color: var(--iris);
+}
+
+.modal-svg {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-inp:focus + .modal-svg {
+  fill: var(--iris);
 }
 
 .visually-hidden {
