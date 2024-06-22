@@ -457,7 +457,7 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%-50%);
+  transform: translate(-50%, -50%);
   width: 408px;
   min-height: 584px;
   background: var(--dairy);
@@ -477,7 +477,7 @@ img {
   border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
   background-color: var(--cornflower);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
@@ -486,7 +486,8 @@ img {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-overlay:hover {
+.btn-overlay:hover,
+.btn-overlay:focus {
   background-color: var(--ocean);
   border: none;
 }
@@ -497,6 +498,15 @@ img {
 }
 .overlay-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-par {
+  color: var(--navy-blue);
+  margin-bottom: 16px;
+}
+
+.modal-person {
+  margin-bottom: 8px;
 }
 
 .visually-hidden {
