@@ -26,14 +26,49 @@
       <div class="nav-block container">
         <nav class="navigation">
           <a class="logo" href="./index.html"
-            >Web<span class="logo-studio">Studio</span></a
-          >
-          <ul class="nav-list">
+          >Web<span class="logo-studio">Studio</span></a
+        >
+          <button class="brg-btn" type="button" id="burgerButton">
+            <svg  width="16" height="16">
+              <use href="./images/icons.svg#icon-burger"></use>
+            </svg>
+          </button>
+        <ul class="nav-list" id="nav-list">
             <li>
               <a class="body-medium link current" href="./index.html">Studio</a>
             </li>
             <li><a class="body-medium link" href="#">Portfolio</a></li>
             <li><a class="body-medium link" href="#">Contacts</a></li>
+          </ul>
+        </nav>
+        <address>
+          <ul class="address" id="address">
+            <li>
+              <a class="address-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="address-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+      <div class="mobile-overlay" id="mobileOverlay">
+        <button class=" mobile-btn-overlay" type="button" id="closeButton">
+            <svg class="overlay-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-cross"></use>
+            </svg>
+        </button>
+        <nav class="mobile-nav">
+        <ul class="mobile-nav-list">
+            <li>
+              <a class="hd-two link" href="./index.html">Studio</a>
+            </li>
+            <li><a class="hd-two link" href="#">Portfolio</a></li>
+            <li><a class="hd-two link" href="#">Contacts</a></li>
           </ul>
         </nav>
         <address>
@@ -49,10 +84,39 @@
               >
             </li>
           </ul>
-        </address>
-      </div>
+          <ul class="icon-list">
+              <li class="icon-item">
+                <a href="#" class="icon-link">
+                  <svg class="icon-svg" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="icon-item">
+                <a href="#" class="icon-link">
+                  <svg class="icon-svg" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="icon-item">
+                <a href="#" class="icon-link">
+                  <svg class="icon-svg" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="icon-item">
+                <a href="#" class="icon-link">
+                  <svg class="icon-svg" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+      </div>    
     </header>
-    <main>
+    <!-- <main>
       <section class="hero">
         <div class="container">
           <h1 class="hd-ttl">Effective Solutions for Your Business</h1>
@@ -563,6 +627,7 @@
           <button class="modal-btn button-text" type="submit">Send</button>
         </form>
       </div>
-    </div>
+    </div>-->
+    <script src="script.js"></script>
   </body>
 </html>
