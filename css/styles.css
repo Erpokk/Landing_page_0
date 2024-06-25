@@ -140,7 +140,6 @@ img {
 
 .section {
   padding: 16px;
-  max-width: 1440px;
 }
 
 /* #endregion General */
@@ -148,8 +147,8 @@ img {
 
 .hdr {
   border-bottom: 1px solid var(--cornflower);
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
 .hdr-wrapper {
@@ -332,6 +331,12 @@ img {
   .nav {
     display: flex;
   }
+
+  .address-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
 }
 
 @media (min-width: 1158px) {
@@ -354,5 +359,6 @@ img {
   .address-list {
     display: flex;
     flex-direction: row;
+    gap: 40px;
   }
 }
