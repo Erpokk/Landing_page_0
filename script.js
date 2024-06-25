@@ -19,14 +19,22 @@ function removeSmallTextClass() {
         document.querySelectorAll('.address-item').forEach(function (element) {
             element.classList.remove('small-text');
         });
+        document.querySelectorAll('.benef-item > .par').forEach(function (element) {
+            element.classList.remove("body-medium");
+        });
     }
     else {
         document.querySelectorAll('.address-item').forEach(function (element) {
             element.classList.add('small-text');
         });
+        document.querySelectorAll('.benef-item > .par').forEach(function (element) {
+            element.classList.add("body-medium");
+        });
     }
 }
 
+
+
 removeSmallTextClass();
 
-window.addEventListener('resize', removeSmallTextClass);
+window.addEventListener('resize', removeSmallTextClass, );
