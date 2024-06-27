@@ -2,17 +2,26 @@ const burgerButton = document.getElementById('burgerButton');
 const mobileOverlay = document.getElementById('mobileOverlay');
 const closeButton = document.getElementById('closeButton');
 const addBar = document.getElementById('addBar');
-
-
+const submitButton = document.getElementById('submitButton');
+const modalOverlay = document.getElementById('modalOverlay');
+const mcloseButton = document.getElementById('mcloseButton')
 
 burgerButton.addEventListener('click', function() {
-                mobileOverlay.classList.add('is-open');
+mobileOverlay.classList.add('is-open');
             });
         
- closeButton.addEventListener('click', function() {
-                mobileOverlay.classList.remove('is-open');
-            });
+closeButton.addEventListener('click', function() {
+    mobileOverlay.classList.remove('is-open');
+});
             
+submitButton.addEventListener("click", function () {
+    modalOverlay.classList.add('is-open');
+});
+
+mcloseButton.addEventListener('click', function() {
+    modalOverlay.classList.remove('is-open');
+});
+
 
 function removeSmallTextClass() {
     if (window.innerWidth >= 1158) {
@@ -32,6 +41,15 @@ function removeSmallTextClass() {
         });
     }
 }
+
+ document.addEventListener("DOMContentLoaded", function () {
+            const inputField = document.getElementById("user-privacy");
+            const toggleButton = document.getElementById("toggleButton");
+
+            inputField.addEventListener("click", function () {
+                toggleButton.disabled = !toggleButton.disabled;
+            });
+        });
 
 
 

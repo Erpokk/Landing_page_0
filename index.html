@@ -637,7 +637,7 @@
                 placeholder="E-mail"
               />
             </label>
-            <button type="submit" class="subs-btn button-text">
+            <button type="submit" class="subs-btn button-text" id="submitButton">
               Subscribe
               <svg class="subs-btn-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-plane"></use>
@@ -647,10 +647,10 @@
         </div>
       </div>
     </footer>
-    <!--
-    <div class="modal-overlay">
+    
+    <div class="modal-overlay" id="modalOverlay">
       <div class="modal">
-        <button class="button-text btn-overlay" type="button">
+        <button class="button-text btn-overlay" type="button" id="mcloseButton" >
           <svg class="overlay-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-cross"></use>
           </svg>
@@ -729,10 +729,10 @@
               <a class="link-text" href="#">Privacy Policy</a>
             </label>
           </div>
-          <button class="modal-btn button-text" type="submit">Send</button>
+          <button class="modal-btn button-text" type="submit" id="toggleButton" disabled >Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
