@@ -24,40 +24,43 @@
   <body>
     <header class="hdr">
       <div class="hdr-wrapper container">
-          <a class="logo" href="./index.html"
+        <a class="logo" href="./index.html"
           >Web<span class="logo-studio">Studio</span></a
         >
-          <button class="brg-btn" type="button" id="burgerButton">
-            <svg  width="16" height="16">
-              <use href="./images/icons.svg#icon-burger"></use>
-            </svg>
-          </button>
-          <nav class="nav">
-            <ul class="mobile-nav-list">
-              <li>
-                <a class="body-medium link current" href="./index.html">Studio</a>
-              </li>
-              <li><a class="body-medium link" href="#">Portfolio</a></li>
-              <li><a class="body-medium link" href="#">Contacts</a></li>
-            </ul>
+        <button class="brg-btn" type="button" id="burgerButton">
+          <svg width="16" height="16">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+        <nav class="nav">
+          <ul class="mobile-nav-list">
+            <li>
+              <a class="body-medium link current" href="./index.html">Studio</a>
+            </li>
+            <li><a class="body-medium link" href="#">Portfolio</a></li>
+            <li><a class="body-medium link" href="#">Contacts</a></li>
+          </ul>
         </nav>
         <address class="address">
           <ul class="address-list">
             <li class="address-item">
-              <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <a class="address-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
             </li>
             <li class="address-item">
-              <a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+              <a class="address-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
             </li>
-            
           </ul>
         </address>
       </div>
       <div class="mobile-overlay" id="mobileOverlay">
-        <button class=" mobile-btn-overlay" type="button" id="closeButton">
-            <svg class="overlay-icon" width="8" height="8">
-              <use href="./images/icons.svg#icon-cross"></use>
-            </svg>
+        <button class="mobile-btn-overlay" type="button" id="closeButton">
+          <svg class="overlay-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-cross"></use>
+          </svg>
         </button>
         <nav class="mobile-nav">
           <ul class="mobile-nav-list">
@@ -71,53 +74,54 @@
         <address>
           <ul class="mobile-address">
             <li>
-              <a class="address-link "href="mailto:info@devstudio.com"
+              <a class="address-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
             <li>
-              <a class="address-link " href="tel:+110001111111"
+              <a class="address-link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
           </ul>
-          <ul class="icon-list">
-              <li class="icon-item">
-                <a href="#" class="icon-link">
-                  <svg class="icon-svg" width="24" height="24">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="icon-item">
-                <a href="#" class="icon-link">
-                  <svg class="icon-svg" width="24" height="24">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="icon-item">
-                <a href="#" class="icon-link">
-                  <svg class="icon-svg" width="24" height="24">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="icon-item">
-                <a href="#" class="icon-link">
-                  <svg class="icon-svg" width="24" height="24">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-      </div>    
+        </address>
+        <ul class="icon-list">
+          <li class="icon-item">
+            <a href="#" class="icon-link">
+              <svg class="icon-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-item">
+            <a href="#" class="icon-link">
+              <svg class="icon-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-item">
+            <a href="#" class="icon-link">
+              <svg class="icon-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-item">
+            <a href="#" class="icon-link">
+              <svg class="icon-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </header>
     <main>
       <section class="hero">
         <div class="container">
           <h1 class="hd-ttl">Effective Solutions for Your Business</h1>
-          <button class="title-btn button-text" type="button">
+          <button class="title-btn button-text" type="button" id="submitButton">
             Order Service
           </button>
         </div>
@@ -183,7 +187,10 @@
           <ul class="team-list">
             <li class="list-item">
               <img
-                srcset="./images/team/mark_guerrero.jpg 1x, ./images/team/mark_guerrero@2x.jpg 2x"
+                srcset="
+                  ./images/team/mark_guerrero.jpg    1x,
+                  ./images/team/mark_guerrero@2x.jpg 2x
+                "
                 src="./images/team/mark_guerrero.jpg"
                 alt="Portrait of male team member"
                 width="264"
@@ -226,7 +233,10 @@
             </li>
             <li class="list-item">
               <img
-                srcset="./images/team/tom_ford.jpg 1x, ./images/team/tom_ford@2x.jpg 2x"
+                srcset="
+                  ./images/team/tom_ford.jpg    1x,
+                  ./images/team/tom_ford@2x.jpg 2x
+                "
                 src="./images/team/tom_ford.jpg"
                 alt="Portrait of male team developer"
                 width="264"
@@ -269,7 +279,10 @@
             </li>
             <li class="list-item">
               <img
-                srcset="./images/team/camila_garcia.jpg 1x, ./images/team/camila_garcia@2x.jpg 2x"
+                srcset="
+                  ./images/team/camila_garcia.jpg    1x,
+                  ./images/team/camila_garcia@2x.jpg 2x
+                "
                 src="./images/team/camila_garcia.jpg"
                 alt="Portrait of female team marketolog"
                 width="264"
@@ -312,7 +325,10 @@
             </li>
             <li class="list-item">
               <img
-                srcset="./images/team/daniel_wilson.jpg 1x, ./images/team/daniel_wilson@2x.jpg 2x"
+                srcset="
+                  ./images/team/daniel_wilson.jpg    1x,
+                  ./images/team/daniel_wilson@2x.jpg 2x
+                "
                 src="./images/team/daniel_wilson.jpg"
                 alt="Portrait of male team designer"
                 width="264"
@@ -356,7 +372,7 @@
           </ul>
         </div>
       </section>
-     <section class="section">
+      <section class="section">
         <div class="container">
           <h2 class="hd-two">Our Portfolio</h2>
           <ul class="portf-list">
@@ -365,22 +381,34 @@
                 <picture class="portf-img">
                   <source
                     media="(min-width: 1158px)"
-                    srcset="./images/portfolio/bank_app_lg.jpg 1x, ./images/portfolio/bank_app_lg@2x.jpg 2x"
+                    srcset="
+                      ./images/portfolio/bank_app_lg.jpg    1x,
+                      ./images/portfolio/bank_app_lg@2x.jpg 2x
+                    "
                     type="image/jpg"
                   />
                   <source
                     media="(min-width: 768px)"
-                    srcset="./images/portfolio/bank_app_md.jpg 1x, ./images/portfolio/bank_app_md@2x.jpg 2x"
+                    srcset="
+                      ./images/portfolio/bank_app_md.jpg    1x,
+                      ./images/portfolio/bank_app_md@2x.jpg 2x
+                    "
                     type="image/jpg"
                   />
                   <source
                     media="(max-width: 767px)"
-                    srcset="./images/portfolio/bank_app_sm.jpg 1x, ./images/portfolio/bank_app_sm@2x.jpg 2x"
+                    srcset="
+                      ./images/portfolio/bank_app_sm.jpg    1x,
+                      ./images/portfolio/bank_app_sm@2x.jpg 2x
+                    "
                     type="image/jpg"
                   />
                   <img
                     src="./images/portfolio/bank_app_lg.jpg"
-                    alt=“Banking App Interface Concept”
+                    alt="“Banking"
+                    App
+                    Interface
+                    Concept”
                     width="360"
                     height="300"
                   />
@@ -396,22 +424,31 @@
                 <p class="par">App</p>
               </div>
             </li>
-             <li class="portf-item">
+            <li class="portf-item">
               <div class="portf-img-cont">
                 <picture class="portf-img">
                   <source
                     media="(min-width: 1158px)"
-                    srcset="./images/portfolio/pos_terminal_and_phone_lg.jpg 1x, ./images/portfolio/pos_terminal_and_phone_lg@2x.jpg 2x"
+                    srcset="
+                      ./images/portfolio/pos_terminal_and_phone_lg.jpg    1x,
+                      ./images/portfolio/pos_terminal_and_phone_lg@2x.jpg 2x
+                    "
                     type="image/jpg"
                   />
                   <source
                     media="(min-width: 768px)"
-                    srcset="./images/portfolio/pos_terminal_and_phone_md.jpg 1x, ./images/portfolio/pos_terminal_and_phone_md@2x.jpg 2x"
+                    srcset="
+                      ./images/portfolio/pos_terminal_and_phone_md.jpg    1x,
+                      ./images/portfolio/pos_terminal_and_phone_md@2x.jpg 2x
+                    "
                     type="image/jpg"
                   />
                   <source
                     media="(max-width: 767px)"
-                    srcset="./images/portfolio/pos_terminal_and_phone_sm.jpg 1x, ./images/portfolio/pos_terminal_and_phone_sm@2x.jpg 2x"
+                    srcset="
+                      ./images/portfolio/pos_terminal_and_phone_sm.jpg    1x,
+                      ./images/portfolio/pos_terminal_and_phone_sm@2x.jpg 2x
+                    "
                     type="image/jpg"
                   />
                   <img
@@ -432,23 +469,32 @@
                 <p class="par">Marketing</p>
               </div>
             </li>
-           
+
             <li class="portf-item">
               <div class="portf-img-cont">
                 <picture class="portf-img">
                   <source
                     media="(min-width: 1158px)"
-                    srcset="./images/portfolio/laptop_lg.jpg 1x, ./images/portfolio/laptop_lg@2x.jpg 2x"
+                    srcset="
+                      ./images/portfolio/laptop_lg.jpg    1x,
+                      ./images/portfolio/laptop_lg@2x.jpg 2x
+                    "
                     type="image/jpg"
                   />
                   <source
                     media="(min-width: 768px)"
-                    srcset="./images/portfolio/laptop_md.jpg 1x, ./images/portfolio/laptop_md@2x.jpg 2x"
+                    srcset="
+                      ./images/portfolio/laptop_md.jpg    1x,
+                      ./images/portfolio/laptop_md@2x.jpg 2x
+                    "
                     type="image/jpg"
                   />
                   <source
                     media="(max-width: 767px)"
-                    srcset="./images/portfolio/laptop_sm.jpg 1x, ./images/portfolio/laptop_sm@2x.jpg 2x"
+                    srcset="
+                      ./images/portfolio/laptop_sm.jpg    1x,
+                      ./images/portfolio/laptop_sm@2x.jpg 2x
+                    "
                     type="image/jpg"
                   />
                   <img
@@ -474,17 +520,26 @@
                 <picture class="portf-img">
                   <source
                     media="(min-width: 1158px)"
-                    srcset="./images/portfolio/car_taxi_lg.jpg 1x, ./images/portfolio/car_taxi_lg@2x.jpg 2x"
+                    srcset="
+                      ./images/portfolio/car_taxi_lg.jpg    1x,
+                      ./images/portfolio/car_taxi_lg@2x.jpg 2x
+                    "
                     type="image/jpg"
                   />
                   <source
                     media="(min-width: 768px)"
-                    srcset="./images/portfolio/car_taxi_md.jpg 1x, ./images/portfolio/car_taxi_md@2x.jpg 2x"
+                    srcset="
+                      ./images/portfolio/car_taxi_md.jpg    1x,
+                      ./images/portfolio/car_taxi_md@2x.jpg 2x
+                    "
                     type="image/jpg"
                   />
                   <source
                     media="(max-width: 767px)"
-                    srcset="./images/portfolio/car_taxi_sm.jpg 1x, ./images/portfolio/car_taxi_sm@2x.jpg 2x"
+                    srcset="
+                      ./images/portfolio/car_taxi_sm.jpg    1x,
+                      ./images/portfolio/car_taxi_sm@2x.jpg 2x
+                    "
                     type="image/jpg"
                   />
                   <img
@@ -510,17 +565,26 @@
                 <picture class="portf-img">
                   <source
                     media="(min-width: 1158px)"
-                    srcset="./images/portfolio/telephone_screenshot_lg.jpg 1x, ./images/portfolio/telephone_screenshot_lg@2x.jpg 2x"
+                    srcset="
+                      ./images/portfolio/telephone_screenshot_lg.jpg    1x,
+                      ./images/portfolio/telephone_screenshot_lg@2x.jpg 2x
+                    "
                     type="image/jpg"
                   />
                   <source
                     media="(min-width: 768px)"
-                    srcset="./images/portfolio/telephone_screenshot_md.jpg 1x, ./images/portfolio/telephone_screenshot_md@2x.jpg 2x"
+                    srcset="
+                      ./images/portfolio/telephone_screenshot_md.jpg    1x,
+                      ./images/portfolio/telephone_screenshot_md@2x.jpg 2x
+                    "
                     type="image/jpg"
                   />
                   <source
                     media="(max-width: 767px)"
-                    srcset="./images/portfolio/telephone_screenshot_sm.jpg 1x, ./images/portfolio/telephone_screenshot_sm@2x.jpg 2x"
+                    srcset="
+                      ./images/portfolio/telephone_screenshot_sm.jpg    1x,
+                      ./images/portfolio/telephone_screenshot_sm@2x.jpg 2x
+                    "
                     type="image/jpg"
                   />
                   <img
@@ -546,17 +610,26 @@
                 <picture class="portf-img">
                   <source
                     media="(min-width: 1158px)"
-                    srcset="./images/portfolio/girl_on_online_course_lg.jpg 1x, ./images/portfolio/girl_on_online_course_lg@2x.jpg 2x"
+                    srcset="
+                      ./images/portfolio/girl_on_online_course_lg.jpg    1x,
+                      ./images/portfolio/girl_on_online_course_lg@2x.jpg 2x
+                    "
                     type="image/jpg"
                   />
                   <source
                     media="(min-width: 768px)"
-                    srcset="./images/portfolio/girl_on_online_course_md.jpg 1x, ./images/portfolio/girl_on_online_course_md@2x.jpg 2x"
+                    srcset="
+                      ./images/portfolio/girl_on_online_course_md.jpg    1x,
+                      ./images/portfolio/girl_on_online_course_md@2x.jpg 2x
+                    "
                     type="image/jpg"
                   />
                   <source
                     media="(max-width: 767px)"
-                    srcset="./images/portfolio/girl_on_online_course_sm.jpg 1x, ./images/portfolio/girl_on_online_course_sm@2x.jpg 2x"
+                    srcset="
+                      ./images/portfolio/girl_on_online_course_sm.jpg    1x,
+                      ./images/portfolio/girl_on_online_course_sm@2x.jpg 2x
+                    "
                     type="image/jpg"
                   />
                   <img
@@ -583,7 +656,7 @@
     </main>
     <footer class="foot section">
       <div class="foot-general container">
-        <div class="foot-cont ">
+        <div class="foot-cont">
           <a class="logo" href="./index.html"
             >Web<span class="logo-studio">Studio</span></a
           >
@@ -637,7 +710,7 @@
                 placeholder="E-mail"
               />
             </label>
-            <button type="submit" class="subs-btn button-text" id="submitButton">
+            <button type="submit" class="subs-btn button-text">
               Subscribe
               <svg class="subs-btn-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-plane"></use>
@@ -647,10 +720,10 @@
         </div>
       </div>
     </footer>
-    
+
     <div class="modal-overlay" id="modalOverlay">
       <div class="modal">
-        <button class="button-text btn-overlay" type="button" id="mcloseButton" >
+        <button class="button-text btn-overlay" type="button" id="mcloseButton">
           <svg class="overlay-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-cross"></use>
           </svg>
@@ -729,7 +802,14 @@
               <a class="link-text" href="#">Privacy Policy</a>
             </label>
           </div>
-          <button class="modal-btn button-text" type="submit" id="toggleButton" disabled >Send</button>
+          <button
+            class="modal-btn button-text"
+            type="submit"
+            id="toggleButton"
+            disabled
+          >
+            Send
+          </button>
         </form>
       </div>
     </div>
