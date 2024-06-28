@@ -161,7 +161,9 @@ img {
 }
 
 .container {
-  margin: 0 16px;
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
 
 .section {
@@ -187,7 +189,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-  margin: 16px 0;
 }
 
 .logo-studio,
@@ -468,6 +469,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 16px;
 }
 .foot .logo-studio {
   color: var(--cloud);
@@ -517,6 +519,7 @@ img {
 }
 
 .subs-inp::placeholder {
+  padding-left: 16px;
   color: currentColor;
 }
 
@@ -531,6 +534,7 @@ img {
   background-color: var(--iris);
   border: none;
   border-radius: 4px;
+  gap: 16px;
 }
 
 .modal-overlay {
@@ -720,6 +724,10 @@ img {
 }
 
 @media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
   .hd-ttl {
     font-family: inherit;
     font-weight: bold;
@@ -732,6 +740,10 @@ img {
     margin: auto auto;
   }
 
+  .logo {
+    margin-right: 120px;
+  }
+
   .benef-item > .hd-thr {
     text-align: left;
   }
@@ -741,22 +753,21 @@ img {
   }
 
   .hdr-wrapper {
-    max-width: 1157px;
     align-items: center;
+    justify-content: flex-start;
   }
 
-  .logo {
-    margin: 24px 0;
-  }
   .mobile-nav-list {
-    display: flex;
     flex-direction: row;
-    gap: 24px;
   }
 
   .address,
   .nav {
     display: flex;
+  }
+
+  .address {
+    margin-left: auto;
   }
 
   .address-list {
@@ -775,10 +786,14 @@ img {
       url(../images/hero/hero-bg-md.jpg);
   }
 
+  .link {
+    padding: 24px 0;
+  }
+
   .benef-list {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px 24px;
   }
 
   .benef-item {
@@ -814,8 +829,8 @@ img {
     row-gap: 72px;
     flex-wrap: wrap;
     align-items: center;
-    max-width: calc(288px + 208px + 24px);
     margin: 0 auto;
+    padding-left: 108px;
   }
 
   .foot .logo {
@@ -854,7 +869,7 @@ img {
 
 @media (min-width: 1158px) {
   .container {
-    margin: 0 165px;
+    max-width: 1158px;
   }
 
   .section {
@@ -889,14 +904,6 @@ img {
     margin-right: 76px;
   }
 
-  .hdr-wrapper {
-    max-width: 100%;
-  }
-  .mobile-nav-list {
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-  }
   .address {
     margin-left: auto;
   }
@@ -962,7 +969,6 @@ img {
     row-gap: 0;
     flex-wrap: nowrap;
     align-items: baseline;
-    max-width: calc(264px + 208px + 453px + 120px + 80px);
     margin: 0 auto;
   }
 
