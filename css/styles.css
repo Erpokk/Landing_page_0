@@ -191,6 +191,9 @@ img {
   color: var(--iris);
 }
 
+.hdr .logo {
+  padding: 16px 0;
+}
 .logo-studio,
 .link {
   color: var(--navy-blue);
@@ -456,6 +459,7 @@ img {
 
 .foot {
   background-color: var(--navy-blue);
+  padding: 96px 0;
 }
 
 .foot-general {
@@ -777,7 +781,7 @@ img {
   }
 
   .hero {
-    padding: 136px 0;
+    padding: 112px 0;
     background-image: linear-gradient(
         to bottom,
         rgba(46, 47, 66, 0.7),
@@ -823,12 +827,16 @@ img {
     flex-basis: calc((100% - 24px) / 2);
   }
 
+  .foot {
+    padding: 100px 0;
+  }
+
   .foot-general {
     flex-direction: row;
     gap: 24px;
     row-gap: 72px;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: baseline;
     margin: 0 auto;
     padding-left: 108px;
   }
@@ -970,6 +978,7 @@ img {
     flex-wrap: nowrap;
     align-items: baseline;
     margin: 0 auto;
+    padding-left: 15px;
   }
 
   .foot-cont {
